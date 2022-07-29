@@ -16,8 +16,8 @@ The base url of the api is https://api.francisco-calixto.com/mutation-app .
 
     { 
 	    "error": {
-			    "code": 4XX,
-			    "message": "X"
+			"code": 4XX,
+			"message": "X"
 	    }
     }
 
@@ -25,7 +25,7 @@ The base url of the api is https://api.francisco-calixto.com/mutation-app .
 
     { 
 	    "data": {
-			    ...
+			...
 	    }
     }
 
