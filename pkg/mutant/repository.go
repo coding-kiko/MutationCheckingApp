@@ -47,7 +47,7 @@ func (l *laboratory) GetStats() (Stats, error) {
 			Ratio:          nil,
 		}, nil
 	}
-	p := math.Pow(10, float64(2))
+	p := math.Pow(10, float64(3))
 	ratio = math.Round(float64(mutantCount)/float64(humanCount)*p) / p
 	return Stats{
 		CountMutantDna: mutantCount,
