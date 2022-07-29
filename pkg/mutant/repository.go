@@ -4,6 +4,7 @@ import (
 	"crypto/md5"
 	"database/sql"
 	"fmt"
+	"math"
 	"strings"
 
 	"github.com/coding-kiko/MutantCheckingApp/pkg/errors"
@@ -46,7 +47,7 @@ func (l *laboratory) GetStats() (Stats, error) {
 			Ratio:          nil,
 		}, nil
 	}
-	ratio = float64(mutantCount) / float64(humanCount)
+	ratio = math.Round(float64(mutantCount) / float64(humanCount))
 	return Stats{
 		CountMutantDna: mutantCount,
 		CountHumanDna:  humanCount,
