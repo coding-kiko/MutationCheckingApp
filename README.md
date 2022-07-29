@@ -41,8 +41,8 @@ The base url of the api is https://api.francisco-calixto.com/mutation-app .
 
     { 
 	    "data": {
-			    "code": 200,
-				"message": "mutation detected"
+			"code": 200,
+			"message": "mutation detected"
 	    }
     }
 
@@ -58,8 +58,8 @@ The base url of the api is https://api.francisco-calixto.com/mutation-app .
 
     { 
 	    "data": {
-			    "count_mutant_dna": 8,
-				"count_human_dna": 10,
-				"ratio": 0.8
+			"count_mutant_dna": 8,
+			"count_human_dna": 10,
+			"ratio": 0.8
 	    }
     }
