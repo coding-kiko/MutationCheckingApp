@@ -3,6 +3,7 @@
 This is an exercise api made in order to find a "mutation" on  a sequence DNA sequence. The main algorithm consists of a function that receives an array of strings (NxN) and returns 'true' if more than 1 sequence of 4 contiguous nitrogen bases (A, C, T, G) can be found in any direction.
 
 **Example:** \
+\
 <img alt="JPG" src="readme/example.png"/>
 
 ## Examples: curl
