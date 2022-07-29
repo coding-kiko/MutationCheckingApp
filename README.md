@@ -35,7 +35,7 @@ The base url of the api is https://api.francisco-calixto.com/mutation-app .
 
     curl -XPOST https://api.francisco-calixto.com/mutation-app/mutant \
     -H 'Content-Type:application/json' \
-    -d '{“dna”:["ATGCGA","CAGTGC","TTATGT","AGAAGG","CCCCTA","TCACTG"]}'
+    -d '{"dna":["ATGCGA","CAGTGC","TTATGT","AGAAGG","CCCCTA","TCACTG"]}'
 
 **Example Response**
 
